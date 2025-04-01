@@ -1,7 +1,7 @@
 # Day 1 | Fundamentals of DevOps 
 
 ### 📌 Introduction  
-- Overview of the **DevOps Zero to Hero** course.  
+- Overview of the **Basic of DevOps Roadmap**.  
 - Understanding the importance of DevOps in modern software development.  
 
 ### 📌 Importance of DevOps in Interviews  
