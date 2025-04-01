@@ -7,6 +7,7 @@ Welcome to the Basics of DevOps repository! 🎯 This repo is designed for begin
 ✅ Real-world use cases and examples
 
 ✅ CI/CD, automation, monitoring, and testing fundamentals
-✅ Hands-on exercises (coming soon)
+
+✅ Hands-on exercises 
 
 This repository will be updated regularly with structured learning content. Follow along and start your DevOps journey today! 🚀
