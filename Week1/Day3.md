@@ -39,7 +39,7 @@ Operating System
 All this is done logically, not physically.
 
 ### 🌐 Virtual Machines in the Cloud
-Cloud providers like AWS, Azure, and Google Cloud use the same principle of virtualization at scale:
+Cloud providers like AWS, Azure, and Google Cloud use the same principle of virtualization at scale.
 
 They build massive data centers in different regions (e.g., Mumbai, Ohio).
 
