@@ -25,23 +25,16 @@ In this section, we focus on efficient ways to **connect to AWS EC2 instances** 
  Note: We created an EC2 instance using Amazon Linux AMI, so we used ec2-user in the above command. Below is the list of default usernames based on the AMI Type we used
 
 
-AMI Type                   	 Default Username
-
-Amazon Linux / Amazon Linux 2	 ec2-user
-
-Ubuntu	                         ubuntu
-
-Debian	                         admin or debian
-
-CentOS	                         centos
-
-Fedora	                         fedora
-
-Red Hat Enterprise Linux	 ec2-user or root
-
-SUSE Linux	                 ec2-user or root
-
-Arch Linux	                 arch
+| AMI Type                      | Default Username     |
+|------------------------------|----------------------|
+| Amazon Linux / Amazon Linux 2| ec2-user             |
+| Ubuntu                       | ubuntu               |
+| Debian                       | admin or debian      |
+| CentOS                       | centos               |
+| Fedora                       | fedora               |
+| Red Hat Enterprise Linux     | ec2-user or root     |
+| SUSE Linux                   | ec2-user or root     |
+| Arch Linux                   | arch                 |
 
 
 ### ⚙️ AWS CLI Setup & Authentication
