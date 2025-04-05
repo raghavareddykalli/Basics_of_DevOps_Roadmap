@@ -19,7 +19,9 @@ Basic understanding of latency and data center regions.
 
 ### 🧠 Understanding Virtual Machines
 Imagine owning a 1-acre piece of land. Initially, you build a house and use the whole acre, but over time you realize you're only using half of it. To use the remaining space efficiently, you build another home and rent it out.
+
 This is similar to how physical servers work. A server might have 100 GB RAM and 100 CPUs, but your application only uses 4 GB RAM and 4 CPUs. The rest of the resources go unused.
+
 With virtualization, you can divide that one physical server into multiple virtual servers (or virtual machines), each with isolated resources — improving efficiency and resource utilization.
 
 ### 🛠️ What is a Hypervisor?
