@@ -18,7 +18,7 @@ In this section, we focus on efficient ways to **connect to AWS EC2 instances** 
 ### Using Terminal (CLI)
 1. Open your terminal.
 2. Use the following SSH command:
-   ```bash ssh -i "C:\Users\path-to-pemfile/your-key.pem ec2-user@<public-ip>'''
+   ```bash ssh -i "C:\Users\path-to-pemfile/your-key.pem ec2-user@<public-ip>```
 
 ### ⚙️ AWS CLI Setup & Authentication
 
