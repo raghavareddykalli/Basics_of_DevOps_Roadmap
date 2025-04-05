@@ -29,19 +29,19 @@ AMI Type                   	 Default Username
 
 Amazon Linux / Amazon Linux 2	 ec2-user
 
-Ubuntu	                      ubuntu
+Ubuntu	                         ubuntu
 
-Debian	                      admin or debian
+Debian	                         admin or debian
 
-CentOS	                      centos
+CentOS	                         centos
 
-Fedora	                      fedora
+Fedora	                         fedora
 
-Red Hat Enterprise Linux	    ec2-user or root
+Red Hat Enterprise Linux	 ec2-user or root
 
-SUSE Linux	                   ec2-user or root
+SUSE Linux	                 ec2-user or root
 
-Arch Linux	                   arch
+Arch Linux	                 arch
 
 
 ### ⚙️ AWS CLI Setup & Authentication
