@@ -4,11 +4,17 @@ Today, we’ll cover one of the foundational concepts in DevOps — Virtual Mach
 
 ### 📌 What You'll Learn
 What a server is and why it's important in DevOps.
+
 Difference between physical servers and virtual machines.
+
 Real-world analogy to understand virtualization.
+
 How VMs improve resource efficiency.
+
 The role of hypervisors in virtualization.
+
 How cloud providers like AWS, Azure, and Google Cloud implement VMs.
+
 Basic understanding of latency and data center regions.
 
 ### 🧠 Understanding Virtual Machines
