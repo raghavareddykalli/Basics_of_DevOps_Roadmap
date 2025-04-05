@@ -10,9 +10,10 @@
   - What is DevOps?  
   - Why DevOps?  
   - How do you introduce yourself as a DevOps engineer?  
-  - What are the day-to-day activities of a DevOps engineer?  
+  - What are the day-to-day activities of a DevOps engineer? 
 
-### 3. What is DevOps?  
+### 3. What is DevOps? 
+ ![WhatsApp Image 2025-04-05 at 11 18 53](https://github.com/user-attachments/assets/ce51f043-1fdc-4679-96f9-eac9b7224856)
 - DevOps is **a culture and practice** that enhances an organization’s ability to **deliver applications efficiently**.  
 - Different companies define DevOps in their own way, but at its core, it focuses on:  
   - **Faster software delivery**  
