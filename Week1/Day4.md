@@ -43,7 +43,7 @@ Download AWS CLI
 
 Install AWS CLI
 
-Verify Installation
+#### Verify Installation
 
 ```aws --version```
 #### Configure AWS CLI
