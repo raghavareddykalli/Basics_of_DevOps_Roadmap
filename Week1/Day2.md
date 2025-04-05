@@ -4,8 +4,10 @@
 - Day 2's focus is on the **Software Development Life Cycle (SDLC)**, which is crucial for all professionals involved in software development, including DevOps engineers.
 
 ### 2. **What is SDLC?**
+.![SDLC-Software-Development-Life-Cycle](https://github.com/user-attachments/assets/bf8e354e-bf0c-448c-9ce4-a93cf9595e30)
 - SDLC is a structured process followed by software companies to design, develop, and test products to deliver high-quality results.
 - It’s essential for DevOps engineers to understand SDLC to optimize and improve its efficiency.
+
 
 ### 3. **SDLC Phases**
 - The primary phases of SDLC include:
