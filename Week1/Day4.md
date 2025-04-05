@@ -67,10 +67,11 @@ Output format: json
 ```aws ec2 describe-instances```
 
 
-#🔧 AWS CLI Overview
+## 🔧 AWS CLI Overview
+
 The AWS Command Line Interface (CLI) is a powerful tool that helps manage AWS services directly from the terminal. It is especially useful for automation, scripting, and managing cloud infrastructure efficiently.
 
-###🚀 Key Benefits:  
+### 🚀 Key Benefits:  
 
 Automation-Friendly – Easily script and automate AWS tasks.
 
