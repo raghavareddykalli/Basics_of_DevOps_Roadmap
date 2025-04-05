@@ -28,14 +28,16 @@ With virtualization, you can divide that one physical server into multiple virtu
 A hypervisor is software that enables you to create and manage virtual machines on a physical server. It logically separates the resources and allows multiple VMs to run independently.
 
 Popular hypervisors:
-VMware
-Xen
-Oracle VirtualBox
+VMware,
+Xen,
+Oracle VirtualBox.
+
 Each VM has its own:
-CPU
-RAM
-Storage
-Operating System
+CPU,
+RAM,
+Storage,
+Operating System.
+
 All this is done logically, not physically.
 
 ### 🌐 Virtual Machines in the Cloud
