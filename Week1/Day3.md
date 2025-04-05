@@ -54,11 +54,11 @@ You don’t see the physical server — you only interact with your VM, which be
 
 This approach ensures:
 
- Efficient resource utilization
+ -Efficient resource utilization
  
- Low latency (selecting the closest region)
+ -Low latency (selecting the closest region)
 
- Cost-effectiveness for both users and providers
+ -Cost-effectiveness for both users and providers
 
 ### ✅ Summary
 Virtual Machines (VMs) are logical partitions of physical servers.
