@@ -1,6 +1,6 @@
 # Shell Scripting & Linux Interview Questions for DevOps Engineers
 
-A collection of frequently asked shell scripting and Linux interview questions, with clear and concise answers. Ideal for DevOps engineers preparing for interviews.
+A collection of frequently asked shell scripting and Linux interview questions with clear and concise answers. Ideal for DevOps engineers preparing for interviews.
 
 ## Q&A Summary
 
@@ -142,13 +142,3 @@ sort filename.txt
 Use `logrotate`:
 - Rotate, compress, and delete logs based on policies
 - Configure `/etc/logrotate.d/` for specific apps
-
----
-
-_Stay tuned for advanced shell scripting guides!_
-
----
-
-**Author:** Abhishek  
-**Source:** [Shell Scripting Series - Episode 3](https://www.youtube.com/watch?v=...)
-
