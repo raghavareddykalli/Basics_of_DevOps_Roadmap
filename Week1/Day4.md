@@ -20,7 +20,7 @@ In this section, we focus on efficient ways to **connect to AWS EC2 instances** 
 2. Use the following SSH command:
 
    
-   ```ssh -i "C:\Users\path-to-pemfile/your-key.pem ec2-user@<public-ip>```
+   ```ssh -i "C:\Users\path-to-pemfile/your-key.pem" ec2-user@<public-ip>```
    
  Note: We created an EC2 instance using Amazon Linux AMI, so we used ec2-user in the above command. Below is the list of default usernames based on the AMI Type we used
 
