@@ -30,6 +30,7 @@
 
 -To display the contents of a file using ```cat```.
 
+-To get information about a specific command, use the man command, eg. ```man ls```.This will give additional information about the ls command.
 
 ### Real-World DevOps Scenarios
 
