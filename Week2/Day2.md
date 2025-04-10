@@ -4,7 +4,7 @@ In this session, we build a real-time AWS resource tracker using Shell Scripting
 
 ## 🧠 Key Concepts Covered
 
-Why Organizations Move to Cloud:
+### Why Organizations Move to Cloud:
 
 Manageability: Avoid maintaining physical infrastructure.
 
