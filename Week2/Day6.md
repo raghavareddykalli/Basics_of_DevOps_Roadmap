@@ -46,30 +46,15 @@ You can group servers (e.g., webservers, dbservers) in the inventory file.
 
 ### Run tasks for specific groups:
 
-```[webservers]
-192.168.1.10```
+[webservers]
 
-```ansible -i inventory all -m shell -a "touch /tmp/devops-class"```
+192.168.1.10
+
+```ansible -i inventory webservers -m shell -a "touch /tmp/devops-class"```
 
 ## 📜 Ansible Playbooks
 
 Playbooks are YAML files (start with ---) that define a series of tasks.
-
-### Example Playbook to install and start Nginx:
-
-```---
-- name: Install and Start Nginx
-  hosts: webservers
-  become: true
-  tasks:
-    - name: Install Nginx
-      apt:
-        name: nginx
-        state: present
-    - name: Start Nginx
-      service:
-        name: nginx
-        state: started```
 
 ### Execute playbook:
 
@@ -96,22 +81,3 @@ Example: Kubernetes setup
 Use playbooks and roles to create EC2 instances and configure master/worker nodes.
 
 Roles allow reuse, readability, and modular design.
-
-## 📚 Repository Organization
-
-Example repo layout:
-
-├── playbook.yaml
-└── roles/
-    └── jboss_standalone/
-        ├── tasks/
-        ├── handlers/
-        ├── files/
-        ├── vars/
-        ├── defaults/
-        ├── meta/
-        └── README.md
-
-Add role metadata and usage policy in the meta folder.
-
-Store sample files in files/ and configurations in templates/.
