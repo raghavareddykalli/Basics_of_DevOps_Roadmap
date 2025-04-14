@@ -28,17 +28,20 @@ Unlike cloud provider-specific tools (like AWS CloudFormation), Terraform is **c
 
 ### ✅ For macOS:
 
-```bash
+```
 brew tap hashicorp/tap
-brew install hashicorp/tap/terraform```
+brew install hashicorp/tap/terraform
+```
 
 ### ✅ For Linux (Debian/Ubuntu):
 
-```sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+```
+sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update
-sudo apt install terraform```
+sudo apt install terraform
+```
 
 ### ✅ For Windows:
 
@@ -59,25 +62,25 @@ Your Terraform project should include the following key files:
 | `provider.tf`     | Defines the cloud provider and credentials          |
 | `backend.tf`      | *(Optional)* Configures remote backend              |
 
-## 📁 Sample Folder Structure
-
-<pre> terraform-project/ ├── main.tf ├── variables.tf ├── terraform.tfvars ├── provider.tf └── backend.tf </pre>
-
 ## 🔐 Provider Configuration (AWS Example)
 
 **provider.tf**
 
-```provider "aws" {
+```
+provider "aws" {
   region     = var.region
   access_key = var.access_key
   secret_key = var.secret_key
-}```
+}
+```
 
 **variables.tf**
 
-```variable "region" {}
+```
+variable "region" {}
 variable "access_key" {}
-variable "secret_key" {}```
+variable "secret_key" {}
+```
 
 ## ☁️ Local vs Remote Backend
 
@@ -97,7 +100,8 @@ Use S3 for state storage and DynamoDB for state locking:
 
 **backend.tf**
 
-```terraform {
+```
+terraform {
   backend "s3" {
     bucket         = "your-terraform-state-bucket"
     key            = "state/dev/terraform.tfstate"
@@ -105,7 +109,8 @@ Use S3 for state storage and DynamoDB for state locking:
     dynamodb_table = "terraform-locks"
     encrypt        = true
   }
-}```
+}
+```
 
 **Benefits**:
 
@@ -127,10 +132,12 @@ Modules let you organize reusable code. Each module should contain its own:
 
 #### Example Usage:
 
-```module "vpc" {
+```
+module "vpc" {
   source     = "./modules/vpc"
   cidr_block = "10.0.0.0/16"
-}```
+}
+```
 
 **Benefits**:
 
