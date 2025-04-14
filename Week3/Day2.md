@@ -1,6 +1,6 @@
 # 📅 Day 2: Introduction to CI/CD
 
-##📌 Overview:
+## 📌 Overview:
 
 In this session, we will discuss about the concept of CI/CD (Continuous Integration and Continuous Delivery), its importance in modern software development, and how it works in both legacy and modern setups.
 
