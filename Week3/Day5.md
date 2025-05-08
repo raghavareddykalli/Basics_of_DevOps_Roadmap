@@ -1,4 +1,6 @@
 # OSI Model 
+![image](https://github.com/user-attachments/assets/597daace-b80e-4e93-b89f-1ce206772594)
+
 
 We deep dive into the OSI Model using a real-world example — searching for "google.com" in a browser.
 
